@@ -122,6 +122,7 @@ a {
 
 .background {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .title-one {
@@ -132,10 +133,13 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-list {
   list-style: none;
+  display: flex;
+  gap: 24px;
 }
 
 .team-content {
@@ -246,4 +250,34 @@ a {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.strategy {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantages {
+  display: flex;
+  gap: 24px;
+}
+
+.preference-list {
+  width: calc((100% - 72px) / 4);
+}
+
+.prf-list {
+  margin-right: 0;
 }
